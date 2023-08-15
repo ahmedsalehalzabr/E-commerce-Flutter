@@ -1,0 +1,5 @@
+{error: false, message: Address Retrieved Successfully, data: [
+    {id: 1760, user_id: 1734, name: My Location, type: Other, mobile: 772443334, alternate_mobile: , address: N3Al Wahdah District,Sanaa, landmark: , area_id: 160, city_id: 48, pincode: 400001, country_code: 0, state: Capital Municipality, country: Yemen, latitude: 15.3416761, longitude: 44.1569885, is_default: 1, area: Krishana colony, minimum_free_delivery_order_amount: 300, delivery_charges: 50, city: Mumbai
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "72819227069",
+    "project_id": "numo-customer-app",
+    "storage_bucket": "numo-customer-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72819227069:android:35d5489ccbcb19260ebad4",
+        "android_client_info": {
+          "package_name": "com.nama.numocustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72819227069-6p639bckhqbv5fl47e2t7fjn1nnpi3jq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nama.numocustomer",
+            "certificate_hash": "eed737ba68ec3c6285830765bfcd7cae8b57ec39"
+          }
+        },
+        {
+          "client_id": "72819227069-1nnbo5rb2ouundm748pe5k3npqlkmqma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAomFs_qxI4iAoHb2C59Pih7RDLzDsDhMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72819227069-1nnbo5rb2ouundm748pe5k3npqlkmqma.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "72819227069-5n1nr7eo5fo3imm2sj1kbhvtjquskpqa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nama.numocustomer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
