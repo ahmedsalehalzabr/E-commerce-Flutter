@@ -387,13 +387,14 @@ class _HomePageState extends State<Dashboard> with SingleTickerProviderStateMixi
           position: Tween<Offset>(begin: Offset.zero, end: const Offset(0.0, 1.0))
               .animate(CurvedAnimation(parent: navigationContainerAnimationController, curve: Curves.easeInOut)),
           child: Container(
-            height: kBottomNavigationBarHeight,
+            height: 64, //kBottomNavigationBarHeight,
             decoration: BoxDecoration(
                 color: Theme.of(context).colorScheme.white,
                 borderRadius: const BorderRadius.only(topLeft: Radius.circular(20), topRight: Radius.circular(20))),
             child: BottomBar(
               duration: const Duration(milliseconds: 1000),
               curve: Curves.easeInOut,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               selectedIndex: _selBottom,
               onTap: (int index) {
                 _pageController.jumpToPage(index);

@@ -78,10 +78,12 @@ class _SplashScreen extends State<Splash> {
     if (isFirstTime) {
       log('Spalsh isFirstTime= True');
 
+      // ignore: use_build_context_synchronously
       Navigator.pushReplacementNamed(context, "/home");
     } else {
       log('Spalsh isFirstTime= False');
 
+      // ignore: use_build_context_synchronously
       Navigator.pushReplacement(
           context,
           CupertinoPageRoute(
